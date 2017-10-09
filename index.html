@@ -39,11 +39,11 @@
         </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
-                    <!--<li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
-                    </li>-->
                     <li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#about">About Me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#portfolio">Articles</a>
                     </li>
                     <!--<li class="nav-item">
                         <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -111,11 +111,30 @@
         </div>
     </header>
 
-    <!-- Portfolio Grid Section -->
-    <!--<section id="portfolio">
+    <!-- About Section -->
+    <section id="about">
         <div class="container">
-            <h2 class="text-center">Portfolio</h2>
+            <h2 class="text-center">About me</h2>
             <hr class="star-primary">
+            <div class="row">
+                <!--<div class="col-lg-8">
+                    
+                </div>-->
+                <div class="col-lg-12 mx-auto text-center">
+                    <p>I have been working as a Software Engineer. I have a strong overall programming experience building Web-based and large-scale systems using Object Oriented Programming languages with 6+ years of experience of building web applications
+                        with .Net Framework, MS Dynamics CRM, SPA architecture, JavaScript frameworks.</p>
+                    <p>I always update my knowledge by studying state-of-the-art development tools, programming techniques, and computing equipment, participating in educational opportunities, and reading professional blogs especially for Scott Hanselman,
+                        Jon Skeet and Martin Fowler. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section class="success" id="portfolio">
+        <div class="container">
+            <h2 class="text-center">Articles</h2>
+            <hr class="star-light">
             <div class="row">
                 <div class="col-sm-4 portfolio-item">
                     <a class="portfolio-link" href="#portfolioModal1" data-toggle="modal">
@@ -124,10 +143,10 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img class="img-fluid" src="img/portfolio/cabin.png" alt="">
+                        <img class="img-fluid" src="img/portfolio/DevOps.png" alt="">
                     </a>
                 </div>
-                <div class="col-sm-4 portfolio-item">
+                <!--<div class="col-sm-4 portfolio-item">
                     <a class="portfolio-link" href="#portfolioModal2" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
@@ -176,29 +195,12 @@
                         </div>
                         <img class="img-fluid" src="img/portfolio/submarine.png" alt="">
                     </a>
-                </div>
-            </div>
-        </div>
-    </section>-->
-
-    <!-- About Section -->
-    <section class="success" id="about">
-        <div class="container">
-            <h2 class="text-center">About me</h2>
-            <hr class="star-light">
-            <div class="row">
-                <!--<div class="col-lg-8">
-                    
                 </div>-->
-                <div class="col-lg-12 mx-auto text-center">
-                    <p>I have been working as a Software Engineer. I have a strong overall programming experience building Web-based and large-scale systems using Object Oriented Programming languages with 6+ years of experience of building web applications
-                        with .Net Framework, MS Dynamics CRM, SPA architecture, JavaScript frameworks.</p>
-                    <p>I always update my knowledge by studying state-of-the-art development tools, programming techniques, and computing equipment, participating in educational opportunities, and reading professional blogs especially for Scott Hanselman,
-                        Jon Skeet and Martin Fowler. </p>
-                </div>
             </div>
         </div>
     </section>
+
+
 
     <!-- Contact Section -->
     <!-- <section id="contact">
@@ -328,25 +330,20 @@
                     <div class="row">
                         <div class="col-lg-8 mx-auto">
                             <div class="modal-body">
-                                <h2>Project Title</h2>
+                                <h2>Let’s Do DevOps</h2>
                                 <hr class="star-primary">
-                                <img class="img-fluid img-centered" src="img/portfolio/cabin.png" alt="">
-                                <p>Use this area of the page to describe your project. The icon above is part of a free icon set by
-                                    <a href="https://sellfy.com/p/8Q9P/jV3VZ/">Flat Icons</a>. On their website, you can download their free set with 16 icons, or you can purchase the entire set with 146 icons for only $12!</p>
+                                <img class="img-fluid img-centered" src="img/portfolio/DevOps.png" alt="">
+                                <p>This artical had published in <a href="http://tmentors.com/blog/">TMentors Technical Blog</a> which includes an intoduction to DevOps, elaborating different confused terminologies, the benfits of DevOps, Who is DevOps specialist
+                                    and DevOps tools.</p>
                                 <ul class="list-inline item-details">
-                                    <li>Client:
+                                    <li>Publishing Area:
                                         <strong>
-                        <a href="http://startbootstrap.com">Start Bootstrap</a>
+                        <a href="http://tmentors.com/lets-do-devops/">TMentors Technical Blog</a>
                       </strong>
                                     </li>
                                     <li>Date:
                                         <strong>
-                        <a href="http://startbootstrap.com">April 2014</a>
-                      </strong>
-                                    </li>
-                                    <li>Service:
-                                        <strong>
-                        <a href="http://startbootstrap.com">Web Development</a>
+                        <a>Monday, October 2nd, 2017</a>
                       </strong>
                                     </li>
                                 </ul>
@@ -360,7 +357,7 @@
             </div>
         </div>
     </div>
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+    <!--<div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="close-modal" data-dismiss="modal">
@@ -579,7 +576,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
